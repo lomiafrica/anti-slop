@@ -1,0 +1,42 @@
+{
+  "name": "@lomi./anti-slop",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Oxlint rules that reject low-evidence TypeScript and JavaScript patterns",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "rules",
+    "shared",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "packageManager": "pnpm@9.15.9",
+  "peerDependencies": {
+    "@oxlint/plugins": "^1.78.0"
+  },
+  "devDependencies": {
+    "@oxlint/plugins": "1.78.0",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "lomi.",
+    "oxlint",
+    "typescript",
+    "lint"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lomiafrica/anti-slop.git"
+  }
+}
